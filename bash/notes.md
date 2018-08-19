@@ -11,3 +11,9 @@ this example generates a 24MB file
 ```
 fallocate -l 24M filename
 ```
+
+# 8/19/2018
+### whats my ip
+```
+wget http://ipecho.net/plain -O - -q ; echo
+```
